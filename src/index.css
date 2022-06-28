@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  background-color: rgb(219, 219, 219);
+}
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+span {
+  margin-top: 4px;
+  font-size: 1.9rem;
+}
+
+a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-box {
+  display: grid;
+  place-items: center;
+  font-size: 150px;
+  padding: 30px 0;
+  border-radius: 5px;
+  color: rgb(46, 46, 46);
+  background-color: rgb(219, 219, 219);
+}
+
+.card {
+  height: 280px;
+  margin: 10px 15px;
+  flex: 25%;
+  border-radius: 5px;
+}
+.purchase {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.5rem;
+}
+h4 {
+  margin-top: 0;
+}
+
+.checkout {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.shopping-bag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.checkout-items {
+  display: grid;
+  flex: 20%;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  margin: 20px;
+  padding: 20px;
+}
